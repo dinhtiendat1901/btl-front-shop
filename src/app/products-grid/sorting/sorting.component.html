@@ -1,0 +1,45 @@
+<div class = "row align-items-center mb-5">
+  <div class = "col-lg-6 mb-3 mb-lg-0">
+    <span class = "font-size-1 ml-1">110 products</span>
+  </div>
+
+  <div class = "col-lg-6 align-self-lg-end text-lg-right">
+    <ul class = "list-inline mb-0">
+      <li class = "list-inline-item">
+        <!-- Select -->
+        <select class = "js-custom-select"
+                data-hs-select2-options = '{
+                          "minimumResultsForSearch": "Infinity",
+                          "customClass": "btn btn-xs btn-white dropdown-toggle",
+                          "dropdownAutoWidth": true,
+                          "width": "auto"
+                        }'>
+          <option value = "mostRecent"
+                  selected>Sắp xếp theo
+          </option>
+          <option value = "newest">Mới nhất</option>
+          <option value = "priceHighLow">Giá (cao - thấp)</option>
+          <option value = "priceLowHigh">Giá (thấp - cao)</option>
+          <option value = "topSellers">Bán chạy</option>
+        </select>
+        <!-- End Select -->
+      </li>
+      <li class = "list-inline-item">
+        <!-- Select -->
+        <select class = "js-custom-select"
+                data-hs-select2-options = '{
+                          "minimumResultsForSearch": "Infinity",
+                          "customClass": "btn btn-xs btn-white dropdown-toggle",
+                          "dropdownAutoWidth": true,
+                          "width": "auto"
+                        }'>
+          <option value = "alphabeticalOrderSelect1"
+                  selected>A - Z
+          </option>
+          <option value = "alphabeticalOrderSelect2">Z - A</option>
+        </select>
+        <!-- End Select -->
+      </li>
+    </ul>
+  </div>
+</div>

@@ -119,6 +119,11 @@
           }
         }
       }
-    }},
-  "defaultProject": "btl-front-shop"
+    }
+  },
+  "defaultProject": "btl-front-shop",
+  "cli": {
+    "analytics": "898e03cb-519a-4aa6-a98a-85bb5cdd4ea3",
+    "defaultCollection": "@ngrx/schematics"
+  }
 }
