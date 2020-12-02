@@ -17,6 +17,23 @@ import { ProductListComponent } from './products-grid/product-list/product-list.
 import { ProductItemComponent } from './products-grid/product-list/product-item/product-item.component';
 import { FiltersComponent } from './products-grid/filters/filters.component';
 import { PaginationComponent } from './products-grid/pagination/pagination.component';
+import { SingleProductComponent } from './single-product/single-product.component';
+import { HeroSectionComponent } from './single-product/hero-section/hero-section.component';
+import { ProductDescriptionComponent } from './single-product/product-description/product-description.component';
+import { ProductReviewComponent } from './single-product/product-review/product-review.component';
+import { ProductRelatedComponent } from './single-product/product-related/product-related.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { OrderSummaryComponent } from './checkout/order-summary/order-summary.component';
+import { AccordionComponent } from './checkout/accordion/accordion.component';
+import { FormCheckoutComponent } from './checkout/form-checkout/form-checkout.component';
+import { EmptyCartComponent } from './empty-cart/empty-cart.component';
+import { CartComponent } from './empty-cart/cart/cart.component';
+import { SubscribeComponent } from './empty-cart/subscribe/subscribe.component';
+import { ClientsComponent } from './empty-cart/clients/clients.component';
+import { OrderCompletedComponent } from './order-completed/order-completed.component';
+import { CartSessionComponent } from './order-completed/cart-session/cart-session.component';
+import { SubscribeSectionComponent } from './order-completed/subscribe-section/subscribe-section.component';
+import { ClientsSectionComponent } from './order-completed/clients-section/clients-section.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +50,24 @@ import { PaginationComponent } from './products-grid/pagination/pagination.compo
     ProductListComponent,
     ProductItemComponent,
     FiltersComponent,
-    PaginationComponent
+    PaginationComponent,
+    SingleProductComponent,
+    HeroSectionComponent,
+    ProductDescriptionComponent,
+    ProductReviewComponent,
+    ProductRelatedComponent,
+    CheckoutComponent,
+    OrderSummaryComponent,
+    AccordionComponent,
+    FormCheckoutComponent,
+    EmptyCartComponent,
+    CartComponent,
+    SubscribeComponent,
+    ClientsComponent,
+    OrderCompletedComponent,
+    CartSessionComponent,
+    SubscribeSectionComponent,
+    ClientsSectionComponent
   ],
   imports: [
     BrowserModule,

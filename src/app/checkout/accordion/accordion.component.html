@@ -1,0 +1,47 @@
+<div id = "shopCartAccordion"
+     class = "accordion card shadow-soft mb-4">
+  <!-- Card -->
+  <div class = "card rounded">
+    <div class = "card-header card-collapse"
+         id = "shopCartHeadingOne">
+      <h3 class = "mb-0">
+        <a class = "btn btn-link btn-block card-btn font-weight-bold collapsed"
+           href = "javascript:;"
+           role = "button"
+           data-toggle = "collapse"
+           data-target = "#shopCartOne"
+           aria-expanded = "false"
+           aria-controls = "shopCartOne">
+          Mã giảm giá?
+          <i class = "far fa-question-circle text-body ml-1"
+             data-container = "body"
+             data-toggle = "popover"
+             data-placement = "top"
+             data-trigger = "hover"
+             title = "Promo code"
+             data-content = "Valid on full priced items only. Some products maybe excluded."></i>
+        </a>
+      </h3>
+    </div>
+    <div id = "shopCartOne"
+         class = "collapse"
+         aria-labelledby = "shopCartHeadingOne"
+         data-parent = "#shopCartAccordion">
+      <form class = "js-validate p-4">
+        <div class = "input-group input-group-pill mb-3">
+          <input type = "text"
+                 class = "form-control"
+                 name = "name"
+                 placeholder = "Mã giảm giá"
+                 aria-label = "Promo code">
+          <div class = "input-group-append">
+            <button type = "submit"
+                    class = "btn btn-block btn-primary btn-pill">Áp dụng
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- End Card -->
+</div>

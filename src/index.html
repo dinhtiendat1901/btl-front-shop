@@ -45,6 +45,7 @@
 <script src = "assets/assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
 <script src = "assets/assets/vendor/select2/dist/js/select2.full.min.js"></script>
 <script src = "assets/assets/vendor/ion-rangeslider/js/ion.rangeSlider.min.js"></script>
+<script src = "assets/assets/vendor/hs-quantity-counter/dist/hs-quantity-counter.min.js"></script>
 <!-- JS Front -->
 <script src = "assets/assets/js/hs.core.js"></script>
 <script src = "assets/assets/js/hs.validation.js"></script>
@@ -110,6 +111,13 @@
         .each(function () {
           var slickCarousel = $.HSCore.components.HSSlickCarousel.init($(this));
         });
+
+      // initialization of quantity counter
+      $('.js-quantity-counter')
+        .each(function () {
+          var quantityCounter = new HSQuantityCounter($(this)).init();
+        });
+
       // initialization of countdowns
       $('.js-countdown')
         .each(function () {
